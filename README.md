@@ -1,3 +1,5 @@
-# Flighty Mango
+# Personal Flashcards
 
-Preact + Vite + Eslint + Prettier + TailwindCSS
+Create your own flashcards. Stored privately
+
+Deploy: https://personal-flashcards.surge.sh/

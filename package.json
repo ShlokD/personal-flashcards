@@ -8,9 +8,12 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint --fix --ext .ts,.tsx .",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "postbuild": "@powershell copy 'dist/index.html' 'dist/200.html'",
+    "tsc": "tsc"
   },
   "dependencies": {
+    "dexie": "^3.2.4",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "preact": "^10.13.1"
   },
